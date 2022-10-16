@@ -1,3 +1,9 @@
+<%-- 
+    Document   : register
+    Created on : 6-Oct-2022, 11:44:47 AM
+    Author     : Arjun
+--%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -15,5 +21,6 @@
             </label>
             <button type="submit">Register name</button>
         </form>
+        ${message}
     </body>
 </html>
